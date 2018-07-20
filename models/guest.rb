@@ -1,0 +1,1 @@
+# GUEST CLASS FILE
