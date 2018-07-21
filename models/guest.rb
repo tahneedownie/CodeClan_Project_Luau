@@ -16,6 +16,7 @@ class Guest
     @surname = options['surname']
     @address = options['address']
     @email = options['email']
+    @room_id = options['room_id'].to_i
   end
 
 
