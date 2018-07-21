@@ -41,4 +41,41 @@ class Guest
   end
 
 
+  def format_name
+    return "#{@first_name.capitalize} #{@surname.capitalize}"
+  end
+
+
+  def room()
+    room = Room.find(@room_id)
+    return room
+  end
+
+
+  def self.all()
+    sql = "SELECT * FROM guests"
+    guest_data = SqlRunner.run(sql)
+    guests = map_items(guest_data)
+    return guests
+  end
+
+
+  def self.map_items(guest_data)
+    return guest_data.map { |guest| Guest.new(guest) }
+  end
+
+
+  def self.find(id)
+    sql = "SELECT * FROM guests
+    WHERE id = $1"
+    values = [id]
+    result = SqlRunner.run(sql, values).first
+    guest = Guest.new(result)
+    return guest
+  end
+
+
+
+
+
 end
