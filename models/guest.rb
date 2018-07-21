@@ -17,3 +17,6 @@ class Guest
     @address = options['address']
     @email = options['email']
   end
+
+
+end
