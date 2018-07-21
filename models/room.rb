@@ -30,11 +30,27 @@ def save()
 end
 
 
+def self.find(id)
+  sql = "SELECT * FROM rooms
+  WHERE id = $1"
+  values = [id]
+  result = SqlRunner.run(sql, values).first
+  room = Room.new(result)
+  return room
+end
 
 
+def self.all()
+  sql = "SELECT * FROM rooms"
+  room_data = SqlRunner.run(sql)
+  rooms = map_items(room_data)
+  return rooms
+end
 
 
-
+def self.map_items(room_data)
+  return room_data.map { |room| Room.new(room) }
+end
 
 
 end
