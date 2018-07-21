@@ -52,6 +52,26 @@ class Guest
   end
 
 
+  def update()
+    sql = "UPDATE guests
+    SET
+    (
+      title,
+      first_name,
+      surname,
+      address,
+      email,
+      room_id
+    ) =
+    (
+      $1, $2, $3, $4, $5, $6
+    )
+    WHERE id = $7"
+    values = [@title, @first_name, @surname, @address, @email, @room_id, @id]
+    SqlRunner.run(sql, values)
+  end
+
+
   def self.all()
     sql = "SELECT * FROM guests"
     guest_data = SqlRunner.run(sql)
@@ -73,6 +93,7 @@ class Guest
     guest = Guest.new(result)
     return guest
   end
+
 
 
 
