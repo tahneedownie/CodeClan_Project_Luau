@@ -13,4 +13,22 @@ class Room
   end
 
 
+def save()
+  sql = "INSERT INTO rooms
+  (
+    room_name
+  )
+  VALUES
+  (
+    $1
+  )
+  RETURNING id"
+  values = [@room_name]
+  result = SqlRunner.run(sql, values)
+  id = result.first["id"]
+  @id = id.to_i
+end
+
+
+
 end
