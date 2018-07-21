@@ -20,4 +20,25 @@ class Guest
   end
 
 
+  def save
+    sql = "INSERT INTO guests
+    (
+      title,
+      first_name,
+      surname,
+      address,
+      email
+    )
+    VALUES
+    (
+      $1, $2, $3, $4, $5
+    )
+    RETURNING id"
+    values = [@title, @first_name, @surname, @address, @email]
+    result = SqlRunner.run(sql, values)
+    id = result.first['id']
+    @id = id
+  end
+
+
 end
