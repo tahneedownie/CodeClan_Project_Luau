@@ -1,12 +1,11 @@
-# GUEST CLASS FILE
 
 require_relative('../db/sql_runner')
 
 class Guest
 
-  attr_reader :id, :title, :first_name, :surname, :address, :email
+  attr_reader :id, :title, :first_name, :surname, :address, :city, :country, :postcode, :email, :room_id
 
-  attr_writer :title, :first_name, :surname, :address, :email
+  attr_writer :title, :first_name, :surname, :address, :city, :country, :postcode, :email
 
 
   def initialize(options)
@@ -15,6 +14,9 @@ class Guest
     @first_name = options['first_name']
     @surname = options['surname']
     @address = options['address']
+    @city = options['city']
+    @country = options['country']
+    @postcode = options['postcode']
     @email = options['email']
     @room_id = options['room_id'].to_i
   end
@@ -27,22 +29,21 @@ class Guest
       first_name,
       surname,
       address,
-      email
+      city,
+      country,
+      postcode,
+      email,
+      room_id
     )
     VALUES
     (
-      $1, $2, $3, $4, $5
+      $1, $2, $3, $4, $5, $6, $7, $8, $9
     )
     RETURNING id"
-    values = [@title, @first_name, @surname, @address, @email]
+    values = [@title, @first_name, @surname, @address, @city, @country, @postcode, @email, @room_id]
     result = SqlRunner.run(sql, values)
     id = result.first['id']
     @id = id
-  end
-
-
-  def format_name
-    return "#{@first_name.capitalize} #{@surname.capitalize}"
   end
 
 
@@ -60,14 +61,17 @@ class Guest
       first_name,
       surname,
       address,
+      city,
+      country,
+      postcode,
       email,
       room_id
     ) =
     (
-      $1, $2, $3, $4, $5, $6
+      $1, $2, $3, $4, $5, $6, $7, $8, $9
     )
-    WHERE id = $7"
-    values = [@title, @first_name, @surname, @address, @email, @room_id, @id]
+    WHERE id = $10"
+    values = [@title, @first_name, @surname, @address, @city, @country, @postcode, @email, @room_id, @id]
     SqlRunner.run(sql, values)
   end
 
@@ -103,8 +107,9 @@ class Guest
   end
 
 
-
-
+  def format_name
+    return "#{@first_name.capitalize} #{@surname.capitalize}"
+  end
 
 
 end

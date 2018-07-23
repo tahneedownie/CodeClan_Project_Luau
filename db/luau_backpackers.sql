@@ -13,6 +13,9 @@ CREATE TABLE guests (
   first_name VARCHAR(255),
   surname VARCHAR(255),
   address VARCHAR(255),
+  city VARCHAR(255),
+  country VARCHAR(255),
+  postcode VARCHAR(255),
   email VARCHAR(255),
   room_id INT8 REFERENCES rooms(id)
 );

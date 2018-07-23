@@ -1,6 +1,6 @@
-# ROOM CLASS FILE
 
 require_relative('../db/sql_runner')
+require('pry')
 
 class Room
 

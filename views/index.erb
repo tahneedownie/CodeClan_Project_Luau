@@ -1,0 +1,12 @@
+<h2>Guests</h2>
+
+<div>
+  <% @guests.each do |guest| %>
+
+  <div>
+    <h3><a href="/guests/<%= guest.id %>"><%= guest.format_name %></a></h3>
+    <p>Room: <%= guest.room.room_name.capitalize %></p>
+  </div>
+
+  <% end %>
+</div>
