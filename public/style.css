@@ -1,10 +1,11 @@
 body {
-  background-color: #45B8AC;
+  background-color: #F3CF55;
 }
 
 h1 {
   font-family: 'Open Sans', sans-serif;
-  color: white;
+  color: #45B8AC;
+  font-size: 32pt;
 }
 
 
@@ -28,4 +29,5 @@ h1 {
 /* Pink Yarrow #CE3175 */
 /* Flame #F4512C */
 /* Mimosa #EFC050 */
+/* Primrose Yellow #F3CF55 */
 /* Blanc de Blanc #E9EAE8 */
