@@ -1,17 +1,29 @@
 <!DOCTYPE html>
 <html>
   <head>
-    <title>Welcome to Luau Backpackers!</title>
+    <title>Welcome to Luau Backpackers</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans" rel="stylesheet">
     <link rel="stylesheet" type="text/css" href="style.css">
+
   </head>
 
-  <body>
     <nav>
-      <li> <a href='/guests'> Guests </a> </li>
-      <li> <a href='/guests/new'> Check In Guest </a> </li>
+      <li class="nav_menu"> <a href='/guests'> Home </a> </li>
+      <li class="nav_menu"> <a href='/guests'> Guests </a> </li>
+      <li class="nav_menu"> <a href='/guests/new'> Check In </a> </li>
     </nav>
-    <h1>Welcome to Luau Backpackers!</h1>
+
+    <body>
+
+    <h1>Welcome to Luau Backpackers</h1>
+
+    <img class="img_responsive" src='https://s22.postimg.cc/6lbmc1zdt/tropical_pic_1_large.jpg' alt='beach_image'>
+
+
+
+
+
+
     <%= yield %>
 
   </body>
