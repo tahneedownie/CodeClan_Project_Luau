@@ -42,3 +42,5 @@ post '/guests/:id/delete' do
   guest.delete
   redirect to '/guests'
 end
+
+# RAN TESTS ON ALL METHODS IN GUESTS_CONTROLLER
