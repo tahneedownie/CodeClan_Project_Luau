@@ -41,6 +41,7 @@ post '/guests/:id' do
   guest.update
   redirect to "/guests/#{params['id']}"
 end
+# TEST PASSED
 
 post '/guests/:id/delete' do
   guest = Guest.find(params['id'])
