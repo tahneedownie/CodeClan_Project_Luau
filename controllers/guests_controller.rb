@@ -27,6 +27,7 @@ get '/guests/:id' do
   @guest = Guest.find(params['id'])
   erb(:"guests/show")
 end
+# TEST PASSED
 
 get '/guests/:id/edit' do
   @rooms = Room.all
