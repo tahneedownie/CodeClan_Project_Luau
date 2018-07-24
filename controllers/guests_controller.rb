@@ -9,11 +9,13 @@ get '/guests' do
   @guests = Guest.all
   erb(:"guests/index")
 end
+# TEST PASSED
 
 get '/guests/new' do
   @rooms = Room.all
   erb(:"guests/new")
 end
+# TEST PASSED
 
 post '/guests' do
   Guest.new(params).save
