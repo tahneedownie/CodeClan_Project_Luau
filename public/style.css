@@ -12,14 +12,6 @@ body {
   margin-bottom: 15pt;
 }
 
-
-
-/* nav {
-  font-family: 'Open Sans', sans-serif;
-  list-style-type: none;
-  display: inline-block;
-} */
-
 a {
   text-decoration: none;
   color: #2D2926;
@@ -73,3 +65,27 @@ form {
 /* Primrose Yellow #F3CF55 */
 /* Blanc de Blanc #E9EAE8 */
 /* Black C #2D2926 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* nav {
+  font-family: 'Open Sans', sans-serif;
+  list-style-type: none;
+  display: inline-block;
+/* } */ 
