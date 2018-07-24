@@ -8,6 +8,7 @@ body {
   font-size: 16pt;
   list-style-type: none;
   display: inline-block;
+  text-decoration: none;
   margin-top: 5pt;
   margin-left: 15pt;
   margin-bottom: 15pt;
@@ -15,7 +16,7 @@ body {
 /* PAGE NAVIGATION */
 
 a {
-  text-decoration: none;
+  text-decoration: underline;
   color: #2D2926;
 }
 /* MORE NAV CUSTOM FEATURES */
@@ -31,10 +32,10 @@ h1 {
 
 h2 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 22pt;
+  font-size: 23pt;
   color: #2D2926;
   text-align: left;
-  margin-bottom: 50px;
+  margin-bottom: 45px;
   padding-left: 15px;
 }
 /* GUESTS & CHECK IN GUESTS TITLE */
@@ -66,44 +67,64 @@ label{
   font-size: 16pt;
   display: block;
   margin-left: 15PX;
+  margin-bottom: 5px;
 }
-/* NAMES OF FIELDS IN FORM */
+/* NAMES OF FIELDS (ABOVE BOX) */
 
 input, select {
   width: 20vw;
+  height: 2vw;
   margin-bottom: 20px;
   margin-left: 15PX;
 }
 /* STANDARD INPUT FIELDS IN FORM */
 
+.room_selector_label {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
+  display: block;
+  margin-left: 15PX;
+  margin-bottom: 5px;
+}
+/* ROOM SELECTION FIELD LABEL (ABOVE BOX) */
+
+.room_selection_field {
+  font-family: 'Open Sans', sans-serif;
+  color: #45B8AC;
+  width: 20vw;
+  height: 2vw;
+
+}
+/* ROOM SELECTION FIELD BOX */
+
 .form_input_title {
   width: 10vw;
+  height: 2vw;
 }
 
 .form_input_name {
   width: 20vw;
+  height: 2vw;
 }
 
 .form_input_address {
   width: 35vw;
+  height: 2vw;
 }
 
 .form_input_email {
   width: 25vw;
+  height: 2vw;
 }
 
 .form_align {
   align-content: center;
 }
 
-.room_selection_field {
-  color: #CE3175;
-}
-
 .button {
   width: 12vw;
   height: 4.6vw;
-  background-color: #CE3175;
+  background-color: #45B8AC;
   font-family: 'Open Sans', sans-serif;
   font-size: 14pt;
   font-weight: bold;

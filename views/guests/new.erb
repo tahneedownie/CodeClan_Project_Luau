@@ -45,7 +45,7 @@
     </div>
 
     <div>
-      <label for="room_select"> Select Room: </label>
+      <label class="room_selector_label" for="room_select"> Select Room: </label>
       <select class="room_selection_field" name="room_id" id="room_select">
         <% @rooms.each do |room| %>
           <option value= <%= room.id %> > <%= room.room_name.capitalize %> </option>
