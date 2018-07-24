@@ -1,18 +1,18 @@
 require('sinatra')
 require('sinatra/contrib/all')
-require_relative('models/guest')
-require_relative('models/room')
-also_reload('./models/*')
+require_relative('../models/guest')
+require_relative('../models/room')
+also_reload('../models/*')
 
 
 get '/guests' do
   @guests = Guest.all
-  erb(:index)
+  erb(:"guests/index")
 end
 
 get '/guests/new' do
   @rooms = Room.all
-  erb(:new)
+  erb(:"guests/new")
 end
 
 post '/guests' do
@@ -22,13 +22,13 @@ end
 
 get '/guests/:id' do
   @guest = Guest.find(params['id'])
-  erb(:show)
+  erb(:"guests/show")
 end
 
 get '/guests/:id/edit' do
   @rooms = Room.all
   @guest = Guest.find(params['id'])
-  erb(:edit)
+  erb(:"guests/edit")
 end
 
 post '/guests/:id' do

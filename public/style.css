@@ -88,6 +88,13 @@ h4 {
 
 
 
+
+
+
+
+
+
+
 /* OTHER BITS AND PIECES */
 
 
@@ -109,3 +116,11 @@ h4 {
   list-style-type: none;
   display: inline-block;
 /* } */
+
+/* wojtek */
+label{
+  display: block;
+}
+input, select {
+  margin-bottom: 20px;
+}
