@@ -25,7 +25,7 @@ h1 {
   color: #45B8AC;
   font-size: 36pt;
   text-align: center;
-  margin-bottom: 100pt;
+  margin-bottom: 50pt;
 }
 /* PAGE GREETING */
 
@@ -53,6 +53,20 @@ h4 {
   margin-bottom: 70px;
 }
 /* ROOM NAMES */
+
+.img_responsive {
+  max-width: 100%;
+}
+/* MAKES THE IMAGE RESPONSIVE */
+
+
+/* wojtek */
+label{
+  display: block;
+}
+input, select {
+  margin-bottom: 20px;
+}
 
 
 
@@ -116,11 +130,3 @@ h4 {
   list-style-type: none;
   display: inline-block;
 /* } */
-
-/* wojtek */
-label{
-  display: block;
-}
-input, select {
-  margin-bottom: 20px;
-}
