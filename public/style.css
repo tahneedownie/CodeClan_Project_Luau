@@ -19,7 +19,7 @@ a {
   text-decoration: underline;
   color: #2D2926;
 }
-/* MORE NAV CUSTOM FEATURES */
+/* PAGE (EG. IN NAV) LINK CUSTOM FEATURES */
 
 h1 {
   font-family: 'Open Sans', sans-serif;
@@ -46,7 +46,7 @@ h3 {
   text-align: left;
   padding-left: 15px;
 }
-/* GUEST NAMES */
+/* GUEST NAMES IN INDEX */
 
 h4 {
   font-family: 'Open Sans', sans-serif;
@@ -56,7 +56,93 @@ h4 {
   margin-bottom: 70px;
   padding-left: 15px;
 }
-/* ROOM NAMES */
+/* ROOM NAMES IN INDEX */
+
+h5 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 23pt;
+  color: #2D2926;
+  text-align: left;
+  margin-bottom: 0px;
+  padding-left: 15px;
+}
+/* GUESTS NAME IN SHOW */
+
+h6 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17pt;
+  color: #CE3175;
+  text-align: left;
+  padding-left: 15px;
+}
+/* ROOM NAME IN SHOW */
+
+.button {
+  width: 12vw;
+  height: 4.6vw;
+  background-color: #45B8AC;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+/* CHECK IN BUTTON STYLING */
+
+.delete_button {
+  width: 12vw;
+  height: 4.6vw;
+  background-color: #45B8AC;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+/* DELETE BUTTON STYLING */
+
+.save_button {
+  width: 9vw;
+  height: 4.6vw;
+  background-color: #45B8AC;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  border-radius: 10px;
+  padding-bottom: 5px;
+}
+/* SAVE BUTTON STYLING */
+
+#edit_link {
+  width: 9vw;
+  height: 4.6vw;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: underline;
+  color: #2D2926;
+  margin-left: 15pt;
+  margin-bottom: 25pt;
+}
+/* EDIT BUTTON STYLING */
+
+.img_responsive {
+  max-width: 100%;
+}
+/* MAKES THE IMAGE RESPONSIVE */
+
+
+
 
 
 
@@ -121,26 +207,10 @@ input, select {
   align-content: center;
 }
 
-.button {
-  width: 12vw;
-  height: 4.6vw;
-  background-color: #45B8AC;
-  font-family: 'Open Sans', sans-serif;
-  font-size: 14pt;
-  font-weight: bold;
-  text-align: center;
-  text-decoration: none;
-  color: white;
-  border-radius: 10px;
-  padding-bottom: 5px;
-}
 
 
 
-.img_responsive {
-  max-width: 100%;
-}
-/* MAKES THE IMAGE RESPONSIVE */
+
 
 
 
