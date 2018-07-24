@@ -21,6 +21,7 @@ post '/guests' do
   Guest.new(params).save
   redirect to '/guests'
 end
+# TEST PASSED
 
 get '/guests/:id' do
   @guest = Guest.find(params['id'])
