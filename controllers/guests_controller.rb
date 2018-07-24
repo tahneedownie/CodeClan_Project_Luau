@@ -49,4 +49,8 @@ post '/guests/:id/delete' do
   redirect to '/guests'
 end
 
+
+
+
+
 # RAN TESTS ON ALL METHODS IN GUESTS_CONTROLLER

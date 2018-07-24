@@ -3,4 +3,5 @@
 <p> Room: <%= @guest.room.room_name.capitalize %></p>
 
 <a href="/guests/<%= @guest.id %>/edit">Edit</a>
+<form action="/guests/<%= @guest.id %>/delete" method="POST"><input type="submit" value="Delete"></form>
 <form action="/guests/<%= @guest.id %>/delete" method="POST"><input type="submit" value="Check out"></form>
