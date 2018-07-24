@@ -48,6 +48,7 @@ post '/guests/:id/delete' do
   guest.delete
   redirect to '/guests'
 end
+# TEST PASSED
 
 
 

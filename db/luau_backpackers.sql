@@ -10,8 +10,8 @@ CREATE TABLE rooms (
 CREATE TABLE guests (
   id SERIAL8 primary key,
   title VARCHAR(255),
-  first_name VARCHAR(255),
-  surname VARCHAR(255),
+  first_name VARCHAR(255) NOT NULL,
+  surname VARCHAR(255) NOT NULL,
   address VARCHAR(255),
   city VARCHAR(255),
   country VARCHAR(255),
