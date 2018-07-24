@@ -104,6 +104,7 @@ h6 {
   color: white;
   border-radius: 10px;
   padding-bottom: 5px;
+  margin-top: 30px;
 }
 /* DELETE BUTTON STYLING */
 
@@ -132,7 +133,6 @@ h6 {
   text-decoration: underline;
   color: #2D2926;
   margin-left: 15pt;
-  margin-bottom: 25pt;
 }
 /* EDIT BUTTON STYLING */
 

@@ -2,6 +2,6 @@
 
 <h6> Room: <%= @guest.room.room_name.capitalize %></h6>
 
-<a id="edit_link" href="/guests/<%= @guest.id %>/edit"> Edit </a>
+<a id="edit_link" href="/guests/<%= @guest.id %>/edit"> Edit Details </a>
 <form action="/guests/<%= @guest.id %>/delete" method="POST"><input class="delete_button" type="submit" value="Delete"></form>
 <form action="/guests/<%= @guest.id %>/delete" method="POST"><input class="button" type="submit" value="Check out"></form>
