@@ -31,17 +31,19 @@ h1 {
 
 h2 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 28pt;
+  font-size: 22pt;
   color: #2D2926;
-  text-align: center;
+  text-align: left;
   margin-bottom: 50px;
+  padding-left: 15px;
 }
-/* GUESTS TITLE */
+/* GUESTS & CHECK IN GUESTS TITLE */
 
 h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 17pt;
-  text-align: center;
+  text-align: left;
+  padding-left: 15px;
 }
 /* GUEST NAMES */
 
@@ -49,10 +51,60 @@ h4 {
   font-family: 'Open Sans', sans-serif;
   font-size: 17pt;
   color: #CE3175;
-  text-align: center;
+  text-align: left;
   margin-bottom: 70px;
+  padding-left: 15px;
 }
 /* ROOM NAMES */
+
+
+
+/* -------- FORM ELEMENTS -------- */
+
+label{
+  font-family: 'Open Sans', sans-serif;
+  font-size: 16pt;
+  display: block;
+  margin-left: 15PX;
+}
+/* NAMES OF FIELDS IN FORM */
+
+input, select {
+  width: 20vw;
+  margin-bottom: 20px;
+  margin-left: 15PX;
+}
+/* STANDARD INPUT FIELDS IN FORM */
+
+.form_input_title {
+  width: 10vw;
+}
+
+.form_input_name {
+  width: 20vw;
+}
+
+.form_input_address {
+  width: 35vw;
+}
+
+.form_input_email {
+  width: 25vw;
+}
+
+.form_align {
+  align-content: center;
+}
+
+.room_selection_field {
+  color: #CE3175;
+}
+
+.button {
+  width: 15vw;  
+}
+
+
 
 .img_responsive {
   max-width: 100%;
@@ -60,13 +112,6 @@ h4 {
 /* MAKES THE IMAGE RESPONSIVE */
 
 
-/* wojtek */
-label{
-  display: block;
-}
-input, select {
-  margin-bottom: 20px;
-}
 
 
 
@@ -130,3 +175,9 @@ input, select {
   list-style-type: none;
   display: inline-block;
 /* } */
+
+
+
+/* #postcode-field {
+  width: 10vw;
+} */
