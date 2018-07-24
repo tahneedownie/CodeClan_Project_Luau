@@ -34,6 +34,7 @@ get '/guests/:id/edit' do
   @guest = Guest.find(params['id'])
   erb(:"guests/edit")
 end
+# TEST PASSED
 
 post '/guests/:id' do
   guest = Guest.new(params)
