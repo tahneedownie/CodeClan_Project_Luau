@@ -3,12 +3,17 @@ body {
 }
 /* BACKGROUND COLOUR */
 
+nav {
+  background-color: #45B8AC;
+}
+
 .nav_menu {
   font-family: 'Open Sans', sans-serif;
   font-size: 16pt;
   list-style-type: none;
   display: inline-block;
   text-decoration: none;
+  padding-top: 5pt;
   margin-top: 5pt;
   margin-left: 15pt;
   margin-bottom: 15pt;
@@ -20,6 +25,11 @@ a {
   color: #2D2926;
 }
 /* PAGE (EG. IN NAV) LINK CUSTOM FEATURES */
+
+.a_alternative {
+  text-decoration: none;
+  color: white;
+}
 
 h1 {
   font-family: 'Open Sans', sans-serif;
@@ -51,7 +61,7 @@ h3 {
 h4 {
   font-family: 'Open Sans', sans-serif;
   font-size: 17pt;
-  color: #CE3175;
+  color: #45B8AC;
   text-align: left;
   margin-bottom: 70px;
   padding-left: 15px;
@@ -63,31 +73,41 @@ h5 {
   font-size: 23pt;
   color: #2D2926;
   text-align: left;
-  margin-bottom: 0px;
+  margin-bottom: 40px;
   padding-left: 15px;
 }
 /* GUESTS NAME IN SHOW */
 
-h6 {
+/* h6 {
   font-family: 'Open Sans', sans-serif;
   font-size: 17pt;
-  color: #CE3175;
+  color: #45B8AC;
   text-align: left;
   padding-left: 18px;
-}
+} */
 /* ROOM NAME IN SHOW */
+
+h7 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 17pt;
+  font-weight: bold;
+  color: #45B8AC;
+  text-align: left;
+  padding-left: 15px;
+}
+/* ROOM NAME IN SHOW OVER RIDE */
 
 .button {
   width: 12vw;
   height: 4.6vw;
   background-color: #45B8AC;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14pt;
+  font-size: 12pt;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   color: white;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   padding-bottom: 5px;
 }
 /* CHECK IN BUTTON STYLING */
@@ -97,28 +117,28 @@ h6 {
   height: 4.6vw;
   background-color: #45B8AC;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14pt;
+  font-size: 12pt;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   color: white;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   padding-bottom: 5px;
   margin-top: 30px;
 }
 /* DELETE BUTTON STYLING */
 
 .save_button {
-  width: 9vw;
+  width: 12vw;
   height: 4.6vw;
   background-color: #45B8AC;
   font-family: 'Open Sans', sans-serif;
-  font-size: 14pt;
+  font-size: 12pt;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
   color: white;
-  border-radius: 10px;
+  /* border-radius: 10px; */
   padding-bottom: 5px;
 }
 /* SAVE BUTTON STYLING */
