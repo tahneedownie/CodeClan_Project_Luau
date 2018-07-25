@@ -263,8 +263,11 @@ input, select {
   height: 2vw;
 }
 
-.form_align {
-  align-content: center;
+.form_block {
+  background-color: white;
+  padding-top: 15px;
+  /* margin-top: 40px; */
+  /* align-content: center; */
 }
 
 
