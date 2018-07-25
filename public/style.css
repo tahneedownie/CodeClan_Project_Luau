@@ -12,7 +12,7 @@ nav {
   text-decoration: none;
   padding-top: 5pt;
   margin-top: 5pt;
-  margin-left: 15pt;
+  margin-left: 25pt;
   margin-bottom: 15pt;
 }
 /* PAGE NAVIGATION */
@@ -94,7 +94,7 @@ h3 {
   font-family: 'Open Sans', sans-serif;
   font-size: 17pt;
   text-align: left;
-  padding-left: 15px;
+  padding-left: 25px;
 }
 /* GUEST NAMES IN INDEX */
 
@@ -104,7 +104,7 @@ h4 {
   color: #45B8AC;
   text-align: left;
   margin-bottom: 70px;
-  padding-left: 15px;
+  padding-left: 25px;
 }
 /* ROOM NAMES IN INDEX */
 
@@ -114,7 +114,7 @@ h5 {
   color: #2D2926;
   text-align: left;
   margin-bottom: 35px;
-  padding-left: 15px;
+  padding-left: 25px;
 }
 /* GUESTS NAME IN SHOW */
 
@@ -124,7 +124,7 @@ h7 {
   font-weight: bold;
   color: #45B8AC;
   text-align: left;
-  padding-left: 15px;
+  padding-left: 25px;
   margin-bottom: 5px;
 }
 /* ROOM NAME IN SHOW OVER RIDE */
@@ -206,7 +206,7 @@ h7 {
 /* ALIGNS BUTTONS ACCROSS THE PAGE */
 
 .ul_styling {
-  padding-left: 0px;
+  padding-left: 10px;
 }
 /* TAKES THE AUTO IDENT OFF THE UNORDERED LIST */
 
@@ -262,7 +262,7 @@ label{
   font-size: 16pt;
   color: #2D2926;
   display: block;
-  margin-left: 15PX;
+  margin-left: 25PX;
   margin-bottom: 5px;
 }
 /* NAMES OF FIELDS (ABOVE BOX) */
@@ -271,7 +271,7 @@ input, select {
   width: 20vw;
   height: 2vw;
   margin-bottom: 20px;
-  margin-left: 15PX;
+  margin-left: 25PX;
 }
 /* STANDARD INPUT FIELDS IN FORM */
 
@@ -279,7 +279,7 @@ input, select {
   font-family: 'Open Sans', sans-serif;
   font-size: 16pt;
   display: block;
-  margin-left: 15PX;
+  margin-left: 25PX;
   margin-bottom: 5px;
 }
 /* ROOM SELECTION FIELD LABEL (ABOVE BOX) */
