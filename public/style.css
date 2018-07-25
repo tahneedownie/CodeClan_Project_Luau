@@ -1,7 +1,4 @@
-body {
-  background-color: #E9EAE8;
-}
-/* BACKGROUND COLOUR */
+/* -------- PAGE NAVIGATION -------- */
 
 nav {
   background-color: #45B8AC;
@@ -30,6 +27,17 @@ a {
   text-decoration: none;
   color: white;
 }
+
+
+
+
+
+/* -------- BODY & HEADINGS -------- */
+
+body {
+  background-color: #E9EAE8;
+}
+/* BACKGROUND COLOUR */
 
 h1 {
   font-family: 'Open Sans', sans-serif;
@@ -78,15 +86,6 @@ h5 {
 }
 /* GUESTS NAME IN SHOW */
 
-/* h6 {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 17pt;
-  color: #45B8AC;
-  text-align: left;
-  padding-left: 18px;
-} */
-/* ROOM NAME IN SHOW */
-
 h7 {
   font-family: 'Open Sans', sans-serif;
   font-size: 17pt;
@@ -97,6 +96,7 @@ h7 {
   margin-bottom: 5px;
 }
 /* ROOM NAME IN SHOW OVER RIDE */
+
 
 
 
@@ -181,6 +181,7 @@ h7 {
 
 
 
+
 /* -------- OTHER ELEMENTS -------- */
 
 #edit_link {
@@ -194,13 +195,12 @@ h7 {
   color: #2D2926;
   margin-left: 15pt;
 }
-/* EDIT BUTTON STYLING */
+/* EDIT LINK STYLING */
 
 .img_responsive {
   max-width: 100%;
 }
 /* MAKES THE IMAGE RESPONSIVE */
-
 
 
 
@@ -271,11 +271,6 @@ input, select {
 
 
 
-
-
-
-
-
 /* ------ COLOUR SCHEME ------ */
 
 /* Scuba Blue #00B2CA */
@@ -287,7 +282,7 @@ input, select {
 /* Blanc de Blanc #E9EAE8 */
 /* Black C #2D2926 */
 
-/* --------------------------------- */
+
 
 
 
