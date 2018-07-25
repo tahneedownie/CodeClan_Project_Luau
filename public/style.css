@@ -50,13 +50,45 @@ h1 {
 
 h2 {
   font-family: 'Open Sans', sans-serif;
-  font-size: 23pt;
-  color: #2D2926;
+  font-size: 22pt;
+  color: #FFFFFF;
+  background-color: #45B8AC;
   text-align: left;
-  margin-bottom: 45px;
-  padding-left: 15px;
+  margin-right: 552px;
+  padding-top: 25px;
+  padding-bottom: 36px;
+  margin-bottom: 0px;
+  padding-left: 25px;
 }
-/* GUESTS & CHECK IN GUESTS TITLE */
+/* CHECK IN GUESTS (HEADING) */
+
+.h2_guests_over_ride {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22pt;
+  color: #FFFFFF;
+  background-color: #45B8AC;
+  text-align: left;
+  margin-right: 552px;
+  padding-top: 25px;
+  padding-bottom: 36px;
+  margin-bottom: 0px;
+  padding-left: 25px;
+}
+/* GUESTS (HEADING) */
+
+.h2_guests_edit_over_ride {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22pt;
+  color: #FFFFFF;
+  background-color: #45B8AC;
+  text-align: left;
+  margin-right: 560px;
+  padding-top: 25px;
+  padding-bottom: 36px;
+  margin-bottom: 0px;
+  padding-left: 25px;
+}
+/* EDIT GUESTS (HEADING) */
 
 h3 {
   font-family: 'Open Sans', sans-serif;
@@ -106,13 +138,13 @@ h7 {
 .button {
   width: 12vw;
   height: 4.6vw;
-  background-color: white;
+  background-color: #45B8AC;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
   font-weight: bold;
   text-align: center;
   text-decoration: none;
-  color: #45B8AC;
+  color: white;
   /* border-radius: 10px; */
   padding-bottom: 5px;
 }
@@ -197,6 +229,23 @@ h7 {
 }
 /* EDIT LINK STYLING */
 
+.guest_list_group {
+  background-color: #FFFFFF;
+  padding-top: 20px;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+}
+/* CURRENT GUESTS GROUP */
+
+.guest_show_group {
+  background-color: #FFFFFF;
+  margin-top: 5px;
+  padding-top: 0.5px;
+  padding-bottom: 3px;
+  margin-bottom: 3px;
+}
+/* SHOW GUEST GROUP */
+
 .img_responsive {
   max-width: 100%;
 }
@@ -211,7 +260,7 @@ h7 {
 label{
   font-family: 'Open Sans', sans-serif;
   font-size: 16pt;
-  color: white;
+  color: #2D2926;
   display: block;
   margin-left: 15PX;
   margin-bottom: 5px;
@@ -265,8 +314,8 @@ input, select {
 }
 
 .form_block {
-  background-color: #45B8AC;
-  padding-top: 15px;
+  background-color: #FFFFFF;
+  padding-top: 25px;
   /* margin-top: 40px; */
   /* align-content: center; */
 }
@@ -285,6 +334,9 @@ input, select {
 /* Primrose Yellow #F3CF55 */
 /* Blanc de Blanc #E9EAE8 */
 /* Black C #2D2926 */
+/* WHITE #FFFFFF  */
+/* SNOW #FAFAFA */
+
 
 
 
