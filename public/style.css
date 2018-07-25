@@ -1,7 +1,7 @@
 /* -------- PAGE NAVIGATION -------- */
 
 nav {
-  background-color: #45B8AC;
+  background-color: #00B2CA;
 }
 
 .nav_menu {
@@ -176,7 +176,6 @@ h7 {
   text-align: center;
   text-decoration: none;
   color: white;
-  /* border-radius: 10px; */
   padding-bottom: 5px;
   margin-top: 30px;
   display: inline-block;
@@ -193,7 +192,6 @@ h7 {
   text-align: center;
   text-decoration: none;
   color: white;
-  /* border-radius: 10px; */
   padding-bottom: 5px;
 }
 /* SAVE BUTTON STYLING */
@@ -206,7 +204,7 @@ h7 {
 /* ALIGNS BUTTONS ACCROSS THE PAGE */
 
 .ul_styling {
-  padding-left: 10px;
+  padding-left: 1px;
 }
 /* TAKES THE AUTO IDENT OFF THE UNORDERED LIST */
 
