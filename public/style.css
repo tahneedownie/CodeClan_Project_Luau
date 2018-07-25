@@ -169,7 +169,14 @@ h7 {
 .button_inline {
   list-style-type: none;
   display: inline-block;
+  padding-left: 0px;
 }
+/* ALIGNS BUTTONS ACCROSS THE PAGE */
+
+.ul_styling {
+  padding-left: 0px;
+}
+/* TAKES THE AUTO IDENT OFF THE UNORDERED LIST */
 
 
 
