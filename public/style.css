@@ -73,7 +73,7 @@ h5 {
   font-size: 23pt;
   color: #2D2926;
   text-align: left;
-  margin-bottom: 40px;
+  margin-bottom: 35px;
   padding-left: 15px;
 }
 /* GUESTS NAME IN SHOW */
@@ -98,6 +98,11 @@ h7 {
 }
 /* ROOM NAME IN SHOW OVER RIDE */
 
+
+
+
+/* -------- BUTTON ELEMENTS -------- */
+
 .button {
   width: 12vw;
   height: 4.6vw;
@@ -113,6 +118,22 @@ h7 {
 }
 /* CHECK IN BUTTON STYLING */
 
+.check_out_button {
+  width: 12vw;
+  height: 4.6vw;
+  background-color: #45B8AC;
+  font-family: 'Open Sans', sans-serif;
+  font-size: 12pt;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  color: white;
+  /* border-radius: 10px; */
+  padding-bottom: 5px;
+  display: inline-block;
+}
+/* CHECK OUT BUTTON */
+
 .delete_button {
   width: 12vw;
   height: 4.6vw;
@@ -126,6 +147,7 @@ h7 {
   /* border-radius: 10px; */
   padding-bottom: 5px;
   margin-top: 30px;
+  display: inline-block;
 }
 /* DELETE BUTTON STYLING */
 
@@ -143,6 +165,16 @@ h7 {
   padding-bottom: 5px;
 }
 /* SAVE BUTTON STYLING */
+
+.button_inline {
+  list-style-type: none;
+  display: inline-block;
+}
+
+
+
+
+/* -------- OTHER ELEMENTS -------- */
 
 #edit_link {
   width: 9vw;
