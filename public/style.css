@@ -263,30 +263,30 @@ input, select {
 .room_selection_field {
   font-family: 'Open Sans', sans-serif;
   color: #45B8AC;
-  width: 20vw;
-  height: 2.75vw;
+  width: 15em;
+  height: 2em;
 
 }
 /* ROOM SELECTION FIELD BOX */
 
 .form_input_title {
-  width: 10vw;
+  width: 9em;
   height: 2vw;
 }
 
 .form_input_name {
-  width: 20vw;
-  height: 2vw;
+  width: 15em;
+  height: 2em;
 }
 
 .form_input_address {
-  width: 35vw;
-  height: 2vw;
+  width: 30em;
+  height: 2em;
 }
 
 .form_input_email {
-  width: 25vw;
-  height: 2vw;
+  width: 11em;
+  height: 2em;
 }
 
 .form_block {
