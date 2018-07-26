@@ -49,11 +49,11 @@
       <label class="room_selector_label" for="room_select"> Select Room: </label>
       <select class="room_selection_field" name="room_id" id="room_select" selected="<%= @guest.room_id  %>">
         <% @rooms.each do |room| %>
-        <% if room.id == @guest.room_id %>
-        <option value= <%= room.id %> selected> <%= room.room_name.capitalize %> </option>
-        <% else %>
-        <option value= <%= room.id %> > <%= room.room_name.capitalize %> </option>
-        <% end %>
+          <% if room.id == @guest.room_id %>
+            <option value= <%= room.id %> selected> <%= room.room_name.capitalize %> </option>
+          <% else %>
+            <option value= <%= room.id %> > <%= room.room_name.capitalize %> </option>
+          <% end %>
         <% end %>
       </select>
     </div>
@@ -61,17 +61,7 @@
     <div>
       <input class="save_button" type="submit" value="Save"/>
     </div>
+  </div>
 
 
 </form>
-
-
-
-
-
-
-
-
-
-<!-- <h2 class="h2_guests_edit_over_ride"> Edit <%= @guest.format_name %> </h2>
-DONT DELETE THE ABOVE -->
