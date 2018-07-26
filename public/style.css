@@ -42,9 +42,10 @@ body {
 h1 {
   font-family: 'Open Sans', sans-serif;
   color: #45B8AC;
-  font-size: 36pt;
+  font-size: 40pt;
   text-align: center;
-  margin-bottom: 50pt;
+  margin-top: 50px;
+  margin-bottom: 50px;
 }
 /* PAGE GREETING */
 
@@ -290,7 +291,10 @@ input, select {
 }
 
 .form_block {
-  background-color: #FFFFFF;
+  background-image: url(/images/tropical_fish_with_background_scuba_blue.jpg);
+  background-size: 150%;
+  background-position: bottom;
+  /* background-color: #FFFFFF; */
   padding-top: 25px;
   /* margin-top: 40px; */
   /* align-content: center; */
@@ -376,6 +380,41 @@ input, select {
 /* #postcode-field {
   width: 10vw;
 } */
+
+
+
+
+/* h1 {
+  font-family: 'Open Sans', sans-serif;
+  color: #45B8AC;
+  font-size: 36pt;
+  text-align: center;
+  margin-bottom: 50pt;
+}
+/* PAGE GREETING */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
