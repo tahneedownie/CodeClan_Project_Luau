@@ -52,43 +52,21 @@ h2 {
   font-family: 'Open Sans', sans-serif;
   font-size: 22pt;
   color: #FFFFFF;
-  background-color: #45B8AC;
   text-align: left;
-  margin-right: 552px;
   padding-top: 25px;
   padding-bottom: 36px;
-  margin-bottom: 0px;
   padding-left: 25px;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
-/* CHECK IN GUESTS (HEADING) */
+/* HEADINGS: CURRENT GUESTS, CHECK IN GUEST, GUEST DETAILS */
 
-.h2_guests_over_ride {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 22pt;
-  color: #FFFFFF;
+.h2_over_ride {
   background-color: #45B8AC;
-  text-align: left;
-  margin-right: 552px;
-  padding-top: 25px;
-  padding-bottom: 36px;
-  margin-bottom: 0px;
-  padding-left: 25px;
+  width: 16em;
 }
-/* GUESTS (HEADING) */
+/* BOX VISUAL APPLIED TO H2 HEADINGS */
 
-.h2_guests_edit_over_ride {
-  font-family: 'Open Sans', sans-serif;
-  font-size: 22pt;
-  color: #FFFFFF;
-  background-color: #45B8AC;
-  text-align: left;
-  margin-right: 560px;
-  padding-top: 25px;
-  padding-bottom: 36px;
-  margin-bottom: 0px;
-  padding-left: 25px;
-}
-/* EDIT GUESTS (HEADING) */
 
 h3 {
   font-family: 'Open Sans', sans-serif;
@@ -332,10 +310,13 @@ input, select {
 /* Primrose Yellow #F3CF55 */
 /* Blanc de Blanc #E9EAE8 */
 /* Black C #2D2926 */
+/* RAISIN BLACK #252220 */
 /* DIM GREY #676B69 */
 /* SMOKE #787D7A */
 /* WHITE #FFFFFF  */
 /* SNOW #FAFAFA */
+
+
 
 
 
@@ -395,3 +376,55 @@ input, select {
 /* #postcode-field {
   width: 10vw;
 } */
+
+
+
+
+
+
+
+
+
+
+/* h2 { */
+  /* font-family: 'Open Sans', sans-serif;
+  font-size: 22pt;
+  color: #FFFFFF;
+  background-color: #45B8AC;
+  text-align: left;
+  margin-right: 552px;
+  padding-top: 25px;
+  padding-bottom: 36px;
+  margin-bottom: 0px;
+  padding-left: 25px; */
+/* } */
+/* CHECK IN GUESTS (HEADING) */
+
+/* .h2_guests_over_ride {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22pt;
+  color: #FFFFFF;
+  background-color: #45B8AC;
+  text-align: left; */
+  /* margin-right: 552px; */
+  /* padding-top: 25px;
+  padding-bottom: 36px;
+  margin-bottom: 0px;
+  padding-left: 25px;
+  width: 20em;
+} */
+/* GUESTS (HEADING) */
+
+/* .h2_guests_edit_over_ride {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 22pt;
+  color: #FFFFFF;
+  background-color: #45B8AC;
+  text-align: left;
+  margin-right: 560px;
+  padding-top: 25px;
+  padding-bottom: 36px;
+  margin-bottom: 0px;
+  padding-left: 25px;
+} */
+/* EDIT GUESTS (HEADING) */
