@@ -1,8 +1,9 @@
 require('sinatra')
-require('sinatra/contrib/all')
+# require('sinatra/contrib/all')
+require('sinatra/contrib/all') if development?
 require_relative('../models/guest')
 require_relative('../models/room')
-also_reload('../models/*')
+# also_reload('../models/*')
 
 
 get '/guests' do
