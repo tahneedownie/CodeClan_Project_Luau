@@ -64,14 +64,10 @@ h2 {
   padding-left: 25px;
   margin-top: 0px;
   margin-bottom: 0px;
+  background-color: #45B8AC;
+  width: 230px;
 }
 /* HEADINGS: CURRENT GUESTS, CHECK IN GUEST, GUEST DETAILS */
-
-.h2_over_ride {
-  background-color: #45B8AC;
-  width: 16em;
-}
-/* BOX VISUAL APPLIED TO H2 HEADINGS */
 
 h3 {
   font-family: 'Open Sans', sans-serif;
@@ -119,8 +115,6 @@ h7 {
 /* -------- BUTTON ELEMENTS -------- */
 
 .button {
-  /* width: 12vw;
-  height: 4.6vw; */
   width: 100px;
   height: 40px;
   background-color: #45B8AC;
@@ -130,14 +124,11 @@ h7 {
   text-align: center;
   text-decoration: none;
   color: white;
-  /* border-radius: 10px; */
   padding-bottom: 5px;
 }
 /* CHECK IN BUTTON STYLING */
 
 .check_out_button {
-  /* width: 12vw;
-  height: 4.6vw; */
   width: 100px;
   height: 40px;
   background-color: #45B8AC;
@@ -147,15 +138,12 @@ h7 {
   text-align: center;
   text-decoration: none;
   color: white;
-  /* border-radius: 10px; */
   padding-bottom: 5px;
   display: inline-block;
 }
 /* CHECK OUT BUTTON */
 
 .delete_button {
-  /* width: 12vw;
-  height: 4.6vw; */
   width: 100px;
   height: 40px;
   background-color: #45B8AC;
@@ -172,8 +160,6 @@ h7 {
 /* DELETE BUTTON STYLING */
 
 .save_button {
-  /* width: 12vw;
-  height: 4.6vw; */
   width: 100px;
   height: 40px;
   background-color: #45B8AC;
