@@ -4,6 +4,10 @@ nav {
   background-color: #00B2CA;
 }
 
+.star_fish_repeat {
+  max-width: 100%;
+}
+
 .nav_menu {
   font-family: 'Open Sans', sans-serif;
   font-size: 16pt;
@@ -230,7 +234,7 @@ h7 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 40%;
+  max-width: 60%;
   align-content: center;
   margin: auto;
 }
