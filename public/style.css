@@ -119,8 +119,10 @@ h7 {
 /* -------- BUTTON ELEMENTS -------- */
 
 .button {
-  width: 12vw;
-  height: 4.6vw;
+  /* width: 12vw;
+  height: 4.6vw; */
+  width: 100px;
+  height: 40px;
   background-color: #45B8AC;
   font-family: 'Open Sans', sans-serif;
   font-size: 12pt;
