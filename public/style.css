@@ -21,9 +21,6 @@ nav {
 }
 /* PAGE NAVIGATION */
 
-
-
-
 a {
   text-decoration: underline;
   color: #2D2926;
@@ -234,7 +231,7 @@ h7 {
   display: block;
   margin-left: auto;
   margin-right: auto;
-  max-width: 75%;
+  max-width: 80%;
   align-content: center;
   margin: auto;
   margin-bottom: 15px;
