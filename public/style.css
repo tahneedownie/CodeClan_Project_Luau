@@ -8,16 +8,11 @@ nav {
   background-color: #00B2CA;
 }
 
-.star_fish_repeat {
-  max-width: 100%;
-
-}
-
 .nav_menu {
   font-family: 'Open Sans', sans-serif;
   font-size: 16pt;
   text-decoration: none;
-  margin-right: 32px;
+  margin-right: 36px;
   padding-top: 15px;
   padding-bottom: 20px;
 }
@@ -32,6 +27,10 @@ a {
 .a_alternative {
   text-decoration: none;
   color: white;
+}
+
+.star_fish_repeat {
+  max-width: 100%;
 }
 
 
