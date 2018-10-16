@@ -1,6 +1,10 @@
 /* -------- PAGE NAVIGATION -------- */
 
 nav {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 25px;
   background-color: #00B2CA;
 }
 
@@ -12,13 +16,10 @@ nav {
 .nav_menu {
   font-family: 'Open Sans', sans-serif;
   font-size: 16pt;
-  list-style-type: none;
-  display: inline-block;
   text-decoration: none;
-  padding-top: 5pt;
-  margin-top: 5pt;
-  margin-left: 30pt;
-  margin-bottom: 15pt;
+  margin-right: 30px;
+  padding-top: 15px;
+  padding-bottom: 20px;
 }
 /* PAGE NAVIGATION */
 
